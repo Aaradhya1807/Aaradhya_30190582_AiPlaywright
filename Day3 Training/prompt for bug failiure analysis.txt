@@ -1,0 +1,124 @@
+I found the following bugs in the SauceDemo application (https://www.saucedemo.com/) across multiple user profiles. Act as a Senior QA Lead and prepare a professional Bug Failure Analysis Report.
+
+Analyze all bugs, identify duplicate/common defects across user types, perform defect classification, root-cause analysis, severity and priority assessment, and provide recommendations.
+
+For each defect, generate:
+- Bug ID
+- Bug Title
+- User Type
+- Module
+- Severity
+- Priority
+- Failure Category
+- Failure Analysis
+- Classification Confidence
+- Recommended Investigation / Action
+
+Also generate:
+1. Executive Summary
+   - Total bugs
+   - Unique bugs
+   - Common bugs
+   - Critical defects
+   - Defect distribution by category
+   - Key risks
+   - Recommended next steps
+
+2. Failure Analysis Table
+
+3. Detailed Bug Report Table containing:
+   - User Type
+   - Bug ID
+   - Bug Title
+   - Module
+   - Feature
+   - Severity
+   - Priority
+   - Failure Category
+   - Steps to Reproduce
+   - Expected Result
+   - Actual Result
+   - Failure Analysis
+   - Recommended Action
+
+4. Defect Metrics
+   - Defects by Module
+   - Defects by Severity
+   - Defects by Priority
+   - Defects by Failure Category
+   - Duplicate Defect Analysis
+
+Classification Categories:
+- Application Defect
+- UI Defect
+- Validation Defect
+- Performance Defect
+- Session Management Defect
+- Content Defect
+- Requirement/Test Case Issue
+- Unknown/Insufficient Evidence
+
+Assumptions:
+- Browser: Chrome
+- Environment: Test Environment
+- Build Version: Not Available
+- Requirement ID: Not Available
+- Test Case ID: Not Available
+
+Common Defects:
+- Invalid characters allowed in checkout details is common across all users except Locked Out User.
+- Swag Labs logo does not navigate to the Home page is common across all users except Locked Out User.
+- Cart hyperlink/cart click visibility issue is common across all users except Locked Out User.
+- Cannot increase quantity of selected item is common across Standard User, Problem User, and Performance Glitch User.
+- Filter not working is common across Problem User, Error User, and Performance Glitch User.
+- Reset App State not working is common across Standard User and Problem User.
+- Product name/description displayed in method format is common across Standard User, Problem User, Error User, and Visual User.
+
+Bug Data:
+
+Standard User
+1. Product name is written in methods
+2. Cart is not showing a visible click
+3. Checkout allows numbers and special characters in name and words in postal code
+4. Cannot increase quantity for selected item
+5. Reset App State button not working correctly
+6. Swag Labs logo does not navigate to Home page
+7. Cart remains populated after logout and login with different user
+
+Problem User
+1. Filter not working
+2. All product images are the same
+3. Product name written in method format
+4. Last name cannot be entered during checkout
+5. First name changes when typing last name
+6. Cannot increase quantity for selected item
+7. Some items cannot be added to cart
+8. Cannot remove added item from home page
+9. Reset App State button not working properly
+
+Performance Glitch User
+1. Filter not working
+2. Buttons respond too slowly
+3. Cannot increase quantity for selected item
+4. Some items cannot be added to cart
+
+Locked Out User
+1. Error message is not defined properly
+
+Error User
+1. Cannot remove items from home page
+2. Filtering not working
+3. Product description written in method format
+4. Last name cannot be entered during checkout
+5. Allows invalid characters in name and postal code
+6. Checkout button not working
+7. Some items cannot be added to cart
+
+Visual User
+1. Product description written in method format
+2. Cart icon visually misplaced
+3. Checkout button visually misplaced
+4. Invalid characters allowed in checkout details
+5. Checkout succeeds despite invalid details
+
+Provide the final Bug Failure Analysis Report in a professional format suitable for submission to QA Managers and Project Stakeholders.

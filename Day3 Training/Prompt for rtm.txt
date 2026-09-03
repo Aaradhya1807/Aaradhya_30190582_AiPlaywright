@@ -1,0 +1,46 @@
+Act as a QA Tester. Based on the Login page functionality, create complete QA documentation in the following structure.
+
+Create 3 separate user stories:
+User Login
+Verification of Social Media Links
+Verification of Copyright Links
+For each user story, include:
+Title
+User Story in “As a..., I want..., So that...” format
+Acceptance Criteria
+Create 3 separate test case sheets, one for each user story. Include all relevant and non-duplicate test cases based on the acceptance criteria.
+
+Use the following test case columns:
+
+Test Case ID
+Test Case Name
+Test Steps
+Test Data
+Expected Result
+Actual Result
+Test Environment
+Execution Status
+Bug Severity
+Bug Priority
+Notes
+
+Use separate test case IDs for each user story:
+
+TC-LOGIN-001 onwards for Login
+TC-SM-001 onwards for Social Media Links
+TC-CR-001 onwards for Copyright Links
+Create one combined RTM for all three user stories using these columns:
+Requirement ID
+Requirement Description
+Test Case ID
+Test Status
+
+Use only 3 Requirement IDs:
+
+REQ-001 for User Login
+REQ-002 for Social Media Links
+REQ-003 for Copyright Links
+
+In the RTM, repeat the respective Requirement ID for all test cases belonging to that user story. However, the Requirement Description should be specific to the functionality being tested in that particular row and should be short (approximately 3–4 words). Do not use the same generic description repeatedly for all test cases.
+
+Keep all test cases relevant, properly written, non-duplicated, and ensure complete traceability between the user stories, test cases, and RTM.

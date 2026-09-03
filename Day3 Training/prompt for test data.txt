@@ -1,0 +1,1 @@
+demowebshop.tricentis.com this is the website, we have to generate a test data sheet for many feilds in this site, like in register, login, shopping cart, checkout, and many other functionality. test data categories, valid, invalid, boundary, empty/null, invalid, whitespace, negative, securirty check the website and make test data for all the functionalities

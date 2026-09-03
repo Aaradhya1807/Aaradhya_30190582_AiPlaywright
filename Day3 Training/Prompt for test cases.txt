@@ -1,0 +1,19 @@
+Act as a QA Tester. Create unique and properly written test cases for a Card Payment page containing Card Holder Name, Card Number, Expiry Date, CVC, Save Card checkbox, Pay button, and relevant links.
+
+Cover positive, negative, validation, and functionality scenarios without repeating any test cases.
+
+Create the Excel file with the following columns:
+
+Test Case ID
+Test Case Name
+Test Steps
+Input Data
+Expected Results
+Actual Results
+Test Environment
+Execution Status
+Bug Severity
+Bug Priority
+Notes
+
+Use professional and clear QA terminology. Assign appropriate Bug Severity and Bug Priority wherever applicable.
